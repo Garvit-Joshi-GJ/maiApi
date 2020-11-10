@@ -31,9 +31,9 @@ export const mail = (req, res) => {
              Contact Reason:${contactType}<br />
              ${StartDate&&'Tour StartDate'+StartDate}<br />
              ${EndDate&&'Tour StartDate'+EndDate}<br />
-             Room:${room}<br />
-             Guest:${guest}<br />
-            ${tourType&&'Tour Type'+tourType}<br />
+             ${room&&'Room:'+room}<br />
+             ${guest&&'Guest:'+guest}<br />
+             ${tourType&&'Tour Type'+tourType}<br />
              Query Message:${messageData}<br />
               <br />
               </p>
